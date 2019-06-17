@@ -7,3 +7,5 @@ brew tap chmouel/tektoncd-cli
 brew install tektoncd-cli
 
 ```
+
+Release should get picked up automatically with `brew upgrade`
