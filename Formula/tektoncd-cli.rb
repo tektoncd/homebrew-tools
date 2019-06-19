@@ -2,14 +2,14 @@
 class TektoncdCli < Formula
   desc "A CLI for interacting with Tekton!"
   homepage "https://github.com/tektoncd/cli"
-  version "0.1.1"
+  version "0.1.2"
 
   if OS.mac?
-    url "https://github.com/tektoncd/cli/releases/download/v0.1.1/tkn_0.1.1_Darwin_x86_64.tar.gz"
-    sha256 "4fef4fd22b8973c179b333033f5d007ed290fc77a470dec6012994e73a9998d1"
+    url "https://github.com/tektoncd/cli/releases/download/v0.1.2/tkn_0.1.2_Darwin_x86_64.tar.gz"
+    sha256 "003f02531c4f3c99895cd57cb7cc6009105fb0aa0c6daa268f9f904d2d2243c2"
   elsif OS.linux?
-    url "https://github.com/tektoncd/cli/releases/download/v0.1.1/tkn_0.1.1_Linux_x86_64.tar.gz"
-    sha256 "35565824f32e1603d2665018097568037f44266aa0c1626c105441ba60e2dc8c"
+    url "https://github.com/tektoncd/cli/releases/download/v0.1.2/tkn_0.1.2_Linux_x86_64.tar.gz"
+    sha256 "a2c6e3cdcf4599c02094a92686d4d4d24bac52c692a6d84451334cb96da8844d"
   end
 
   def install
