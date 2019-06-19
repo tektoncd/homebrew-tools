@@ -19,7 +19,7 @@ class TektoncdCli < Formula
     (bash_completion/"tkn").write output
     
     output = Utils.popen_read("SHELL=zsh #{bin}/tkn completion zsh")
-    (zsh_completion/"_tkn).write output
+    (zsh_completion/"_tkn").write output
     
     prefix.install_metafiles
   end
