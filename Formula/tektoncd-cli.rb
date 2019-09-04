@@ -2,16 +2,16 @@
 class TektoncdCli < Formula
   desc "Tekton CLI - The command line interface for interacting with Tekton"
   homepage "https://github.com/tektoncd/cli"
-  version "0.3.0"
+  version "0.3.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/tektoncd/cli/releases/download/v0.3.0/tkn_0.3.0_Darwin_x86_64.tar.gz"
-    sha256 "7ef6915b740323ff7889f1ebb08f067a3e52552a5177567ab77ff4464e55ad23"
+    url "https://github.com/tektoncd/cli/releases/download/v0.3.1/tkn_0.3.1_Darwin_x86_64.tar.gz"
+    sha256 "dacb66115d5e961a6aa859568fa68e00ae47b3022f442d54fab9da83496afad6"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/tektoncd/cli/releases/download/v0.3.0/tkn_0.3.0_Linux_x86_64.tar.gz"
-      sha256 "e2268b74ec9e4ab7d7ac02813ac3469ee9192a7da1ffe29574564edfa51e65e0"
+      url "https://github.com/tektoncd/cli/releases/download/v0.3.1/tkn_0.3.1_Linux_x86_64.tar.gz"
+      sha256 "4d3b883e2f98e71b5cd65a8fb2b9370b8f6b4bb45ba4b58ad4d2f1baf1ab47d2"
     end
   end
 
