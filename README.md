@@ -1,9 +1,9 @@
-# Install tektoncd cli with brews
+# Install tektoncd tools with brews
 
 It is that simple :
 
 ```shell
-brew tap chmouel/tektoncd-cli
+brew tap tektoncd/tools
 brew install tektoncd-cli
 
 ```
