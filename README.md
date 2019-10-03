@@ -10,8 +10,8 @@ For all formulas, start by running the command below:
 brew tap tektoncd/tools
 ```
 
-After running the `brew tap` command above, you are ready download any of the [Tekton
-Homebrew formulas](#current-formulas).
+After running the `brew tap` command above, you are ready download any of the Tekton
+Homebrew formulas under the Current Formulas section below.
 
 ### Updates
 
