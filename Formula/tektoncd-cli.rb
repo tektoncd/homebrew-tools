@@ -2,21 +2,21 @@
 class TektoncdCli < Formula
   desc "Tekton CLI - The command line interface for interacting with Tekton"
   homepage "https://github.com/tektoncd/cli"
-  version "0.5.1"
+  version "0.6.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/tektoncd/cli/releases/download/v0.5.1/tkn_0.5.1_Darwin_x86_64.tar.gz"
-    sha256 "13055b61ef1e03b9ecda8f3f8c1782e85f1afba0755ffed75dcec690adf0c27c"
+    url "https://github.com/tektoncd/cli/releases/download/v0.6.0/tkn_0.6.0_Darwin_x86_64.tar.gz"
+    sha256 "69f2b19a399f113ff7491a16244d59c2a779bc43a74b4166e6e020d248a6c14b"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/tektoncd/cli/releases/download/v0.5.1/tkn_0.5.1_Linux_x86_64.tar.gz"
-      sha256 "4f935e6ceef9c31ef33f197dda40dc9f2afb22f84c0e2997c0a3792220aa9662"
+      url "https://github.com/tektoncd/cli/releases/download/v0.6.0/tkn_0.6.0_Linux_x86_64.tar.gz"
+      sha256 "5e76bb8feb329ca6a92fbe5c5b704377347bec0514258e4bf7705b7aede434db"
     end
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/tektoncd/cli/releases/download/v0.5.1/tkn_0.5.1_Linux_arm64.tar.gz"
-        sha256 "ae558baed862fe850fa2f1fb854cbd0664cb2eb6a7bb8ca12e22b45b173e5e92"
+        url "https://github.com/tektoncd/cli/releases/download/v0.6.0/tkn_0.6.0_Linux_arm64.tar.gz"
+        sha256 "979345bd70bdafc8d58b686fc6323d64c8eb21bc7a4166706ab6ba588671dc08"
       else
       end
     end
