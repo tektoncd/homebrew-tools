@@ -3,7 +3,6 @@ class TektoncdCli < Formula
   desc "Tekton CLI - The command line interface for interacting with Tekton"
   homepage "https://github.com/tektoncd/cli"
   version "0.21.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/tektoncd/cli/releases/download/v0.21.0/tkn_0.21.0_Darwin_x86_64.tar.gz"
