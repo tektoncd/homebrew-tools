@@ -5,11 +5,11 @@
 class TektoncdCli < Formula
   desc "Tekton CLI - The command line interface for interacting with Tekton"
   homepage "https://github.com/tektoncd/cli"
-  version "0.32.2"
+  version "0.31.3"
 
   on_macos do
-    url "https://github.com/tektoncd/cli/releases/download/v0.32.2/tkn_0.32.2_Darwin_all.tar.gz"
-    sha256 "2b124461052621f4971682f259e80ef42fc4d7bf8c32ba98557134d84de80de1"
+    url "https://github.com/tektoncd/cli/releases/download/v0.31.3/tkn_0.31.3_Darwin_all.tar.gz"
+    sha256 "0d908fd7434208ceca5700aa7abfa59e3ea8080ad7c706b1babd8d3343c9e939"
 
     def install
       bin.install_symlink "tkn" => "kubectl-tkn"
@@ -24,8 +24,8 @@ class TektoncdCli < Formula
 
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/tektoncd/cli/releases/download/v0.32.2/tkn_0.32.2_Linux_aarch64.tar.gz"
-      sha256 "1dcff8c54a655aa81b094f7d81fcd8e93386e6d466fcbaa0cdb173e3f8c050d7"
+      url "https://github.com/tektoncd/cli/releases/download/v0.31.3/tkn_0.31.3_Linux_aarch64.tar.gz"
+      sha256 "f9a28b5ca2d946b9c0ef27e21463e528b55643c05e58ed7076ea5f13538d43b4"
 
       def install
         bin.install_symlink "tkn" => "kubectl-tkn"
@@ -38,8 +38,8 @@ class TektoncdCli < Formula
       end
     end
     if Hardware::CPU.intel?
-      url "https://github.com/tektoncd/cli/releases/download/v0.32.2/tkn_0.32.2_Linux_x86_64.tar.gz"
-      sha256 "10b9f4d5415b483eaa037d401bed53d5f9ccedb625809506df63901242a44972"
+      url "https://github.com/tektoncd/cli/releases/download/v0.31.3/tkn_0.31.3_Linux_x86_64.tar.gz"
+      sha256 "02a6ab5fbb4d805ed5393eead6873c8127578bc1694c2ddf1a6008c787dec8e6"
 
       def install
         bin.install_symlink "tkn" => "kubectl-tkn"
